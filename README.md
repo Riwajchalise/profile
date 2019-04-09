@@ -1,4 +1,7 @@
 # profile
 
 Clone the repo 
-git clone <url>
+git clone https://github.com/Riwajchalise/profile.git
+
+View the design at
+https://riwajchalise.github.io/profile/
