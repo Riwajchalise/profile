@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <title>Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://www.w3schools.com/lib/w3-theme-blue-grey.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Open Sans", sans-serif;
+    }
+  </style>
+  <body class="w3-theme-l5">
+    
+    <!-- Page Container -->
+    <div
+      class="w3-container w3-content"
+      style="max-width:1400px;margin-top:80px"
+    >
+      <!-- The Grid -->
+      <div class="w3-row">
+        <!-- Left Column -->
+        <div class="w3-col m3">
+          <!-- Profile -->
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container">
+              <h4 class="w3-center">My Profile</h4>
+              <p class="w3-center">
+                <img
+                  src="./image/profile.png"
+                  class="w3-circle"
+                  style="height:106px;width:106px"
+                  alt="Avatar"
+                />
+              </p>
+              <hr />
+                <p><button class="w3-button w3-black w3-round-xxlarge">Logout</button></p>
+            </div>
+          </div>
+          <br />
+
+          <!-- Accordion -->
+          <div class="w3-card w3-round">
+            <div class="w3-white">
+                    <a href="#" style="border: solid black"
+                    class="w3-button w3-block w3-theme-l1 w3-left-align"
+                  >
+                    <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Home
+            </a>
+              
+              <button style= "border: solid black"
+                onclick="myFunction('Demo2')"
+                class="w3-button w3-block w3-theme-l1 w3-left-align"
+              >
+                <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My
+                Events
+              </button>
+              <div id="Demo2" class="w3-hide w3-container">
+                    <ol>
+                            <li><a href="#">Gmail</a></li>
+                            <li><a href="#">Classroom</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Help-Desk</a></li>
+                            <li><a href="#">Intern Manager</a></li>
+                            <li><a href="#">Gyan Sanglo</a></li>
+                            <li><a href="#">Profiler</a></li>
+                          </ol>
+                          
+              </div>
+
+            </div>
+          </div>
+          <br />
+
+          <!-- Interests -->
+          <div class="w3-card w3-round w3-white w3-hide-small">
+            <div class="w3-container">
+              <p>Calander</p>
+              <iframe src="https://calendar.google.com/calendar/htmlembed?src=addressbook%23contacts%40group.v.calendar.google.com&ctz=Asia%2FKathmandu" style="border: 0" width="210" height="200" frameborder="0" scrolling="yes"></iframe>
+            </div>
+          </div>
+          <br />
+
+          
+          <!-- End Left Column -->
+        </div>
+
+        <!-- Middle Column -->
+        <div class="w3-col m7">
+          <div class="w3-row-padding">
+            <div class="w3-col m12">
+              <div class="w3-card w3-round w3-white">
+                <div class="w3-container w3-padding">
+                  <h6 class="w3-opacity">Favourite apps</h6>
+                  <form class="w3-container">
+                        <p>
+                        <input class="w3-check" type="checkbox" >
+                        <label>Gmail</label></p>
+                        <p>
+                        <input class="w3-check" type="checkbox">
+                        <label> Gyan-sanglo</label></p>
+                        <p>
+                        <input class="w3-check" type="checkbox" >
+                        <label>Profiler</label></p>
+                      </form>
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br />
+            <span class="w3-right w3-opacity">1 min</span>
+            <h4>News</h4>
+            <br />
+            <hr class="w3-clear" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            </div>
+          <!-- End Middle Column -->
+        </div>
+
+        <!-- Right Column -->
+        <div class="w3-col m2">
+                <div class="w3-card w3-round w3-white w3-center">
+                        <div class="w3-container">
+                          <p>Schedule</p>
+                          <br />
+                          <span>Eat</span>
+                                      <div class="w3-row w3-opacity">
+                                        <div class="w3-half">
+                                          <button
+                                            class="w3-button w3-block w3-green w3-section"
+                                            title="Accept"
+                                          >
+                                            <i class="fa fa-check"></i>
+                                          </button>
+                                        </div>
+                                        <div class="w3-half">
+                                          <button
+                                            class="w3-button w3-block w3-red w3-section"
+                                            title="Decline"
+                                          >
+                                            <i class="fa fa-remove"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                        </div>
+                      </div>
+                    </br>
+
+          <div class="w3-card w3-round w3-white w3-center">
+            <div class="w3-container">
+              <p>Upcoming Events:</p>
+              
+              <p><strong>Holiday</strong></p>
+              <p>Friday 15:00</p>
+              <p>
+                <button class="w3-button w3-block w3-theme-l4">Info</button>
+              </p>
+            </div>
+          </div>
+          <br />
+
+
+          <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+                <form class="w3-container">
+                        <h2>Poll</h2>
+                        <p>Do you like College?</p>
+                        <p>
+                        <input class="w3-radio" type="radio" name="gender" value="male" checked>
+                        <label>Yes</label></p>
+                        <p>
+                        <input class="w3-radio" type="radio" name="gender" value="female">
+                        <label>NO</label></p>
+                        <p>
+                        <input class="w3-radio" type="radio" name="gender" value="" disabled>
+                        <label>Don't know</label></p>
+                        <button class="w3-button w3-green">Vote</button>
+                        </br>
+                        <button class="w3-button w3-red">View</button>
+
+                      </form>
+          </div>
+          <br />
+
+          <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
+    </div>
+    <br />
+
+    <!-- Footer -->
+    <footer class="w3-container w3-theme-d3 w3-padding-16">
+      <h5>Footer</h5>
+    </footer>
+
+    <footer class="w3-container w3-theme-d5">
+      <p>
+        Powered by
+        <a href="#" target="_blank"
+          >Aayusha</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Accordion
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          x.previousElementSibling.className += " w3-theme-d1";
+        } else {
+          x.className = x.className.replace("w3-show", "");
+          x.previousElementSibling.className = x.previousElementSibling.className.replace(
+            " w3-theme-d1",
+            ""
+          );
+        }
+      }
+
+      // Used to toggle the menu on smaller screens when clicking on the menu button
+      function openNav() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
